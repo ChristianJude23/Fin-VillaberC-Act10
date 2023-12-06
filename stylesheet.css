@@ -1,0 +1,39 @@
+body {
+    background-color: #7071E8;
+    align-items: center;
+    align-content: center; 
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+}
+
+#head {
+    color: #FFC7C7;
+}
+
+#p_head {
+    color: #FFC7C7;
+}
+
+.gallery {
+    background-color: #C683D7;
+    box-shadow: 5px 10px #FFC7C7;
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 370px;
+}
+
+.gallery:hover {
+    background-color: #ED9ED6;
+}
+
+.title {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
