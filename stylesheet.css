@@ -1,5 +1,5 @@
 body {
-    background-color: #7071E8;
+    background-color: #FF90BC;
     align-items: center;
     align-content: center; 
     margin: auto;
@@ -10,24 +10,30 @@ body {
 }
 
 #head {
-    color: #FFC7C7;
+    color: #F9F9E0;
 }
 
 #p_head {
-    color: #FFC7C7;
+    color: #F9F9E0;
 }
 
 .gallery {
-    background-color: #C683D7;
-    box-shadow: 5px 10px #FFC7C7;
+    background-color: #FFC0D9;
+    box-shadow: 5px 10px #F9F9E0;
     margin: 50px;
     border: 1px solid #ccc;
     float: left;
     width: 370px;
+    height: 850px;
 }
 
 .gallery:hover {
-    background-color: #ED9ED6;
+    background-color: #F9F9E0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
 }
 
 .title {
@@ -35,5 +41,7 @@ body {
 }
 
 .desc {
-    text-align: center;
+    padding: 15px;
+    font-size: 19px;
+    text-align: justify;
 }
